@@ -44,7 +44,7 @@
     margin-bottom: 1%;
     margin-right: 10px;
     padding: 2px 2px 2px 2px;
-    width: 400px;
+    width: 350px;
 }
 .iTitle{
     text-align: center;
@@ -65,7 +65,7 @@
 }
 .details{
     display: grid;
-    grid-template-columns: 100px 200px 100px;
+    grid-template-columns: 100px 150px 100px;
 }
 .iCategory{
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
