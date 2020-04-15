@@ -32,17 +32,21 @@
     height: 100px; 
     width: 700px
 }
-
+.itemList{
+    align-content: top;
+}
 #filterText{
     text-align: left;
     font-size: 200%;
     font-weight: bold;
 }
 .item{
+    align-content: top;
+    display: inline-block;
     background-color: #EEEEEE;
     border: 5px outset #303841;
     margin-bottom: 30px;
-    margin-right: 100px;
+    margin-right: 5%;
     padding: 2px 2px 2px 2px;
     width: 400px;
 }

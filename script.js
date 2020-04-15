@@ -108,8 +108,10 @@ function clearTable() {
 function populateItems(items, filter = 'none') {
     var x = 0
     var filtered = []
-    var table = document.createElement('table')
-    table.id = 'itemList'
+    //var table = document.createElement('table')
+    //table.id = 'itemList'
+    itemList = document.createElement('div')
+    itemList.id = 'itemList'
 
     if (filter != 'none') {
         for (var x in items) {
@@ -117,23 +119,17 @@ function populateItems(items, filter = 'none') {
                 filtered.push(items[x])
             }
         }
-        var row = document.createElement('tr')
-        var cell = document.createElement('td')
-        cell.id = 'filterText'
+        var filteredBy = document.createElement('div')
+        filteredBy.id = 'filterText'
         var filterText = document.createTextNode('Filtered by: ' + filter)
-        cell.appendChild(filterText);
-        table.appendChild(cell)
+        filteredBy.appendChild(filterText);
+        itemList.appendChild(filteredBy)
     }
     else {
         filtered = items
     }
 
     for (var x in filtered) {
-        if (x % 3 == 0) {
-            var row = document.createElement('tr')
-        }
-
-        var cell = document.createElement('td')
         var item = document.createElement('div')
         item.setAttribute('class', 'item')
 
@@ -174,15 +170,12 @@ function populateItems(items, filter = 'none') {
         creditText = document.createTextNode(filtered[x].credit)
         credit.appendChild(creditText)
         item.appendChild(credit)
-
-        cell.appendChild(item)
-        row.appendChild(cell)
-        if (x % 3 == 0) {
-            table.appendChild(row)
-        }
+        
+        itemList.appendChild(item)
 
     }
-    return table;
+    //return table;
+    return itemList
 }
 
 
