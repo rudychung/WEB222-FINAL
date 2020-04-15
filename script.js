@@ -74,6 +74,14 @@ const items = [
         credit: 'Photo by Kevin Grieve on Unsplash'
     },
     {
+        category: 'Bird',
+        orientation: 'Landscape',
+        name: 'Rooster',
+        img: 'ashes-sitoula-KdZvvyemkPM-unsplash.jpg',
+        price: 20.99,
+        credit: 'Photo by Ashes Sitoula on Unsplash'
+    },
+    {
         category: 'Mammal',
         orientation: 'Landscape',
         name: 'Shark',
