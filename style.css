@@ -121,7 +121,6 @@
 }
 
 .sidenav {
-    display: grid;
     height: 100%; /* Full-height: remove this if you want "auto" height */
     width: 150px; 
     position: fixed; 
