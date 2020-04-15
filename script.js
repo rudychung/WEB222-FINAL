@@ -109,7 +109,9 @@ function populateItems(items, filter = 'none') {
     var x = 0
     var filtered = []
 
-    itemList = document.getElementById('itemList')
+    main = document.getElementById('main')
+    itemList = document.createElement('div')
+    itemList.id = 'itemList'
 
     if (filter != 'none') {
         for (var x in items) {
@@ -171,6 +173,7 @@ function populateItems(items, filter = 'none') {
 
         itemList.appendChild(item)
     }
+    main.appendChild(itemList)
 }
 
 window.onload = function () {
