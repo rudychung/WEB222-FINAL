@@ -45,53 +45,55 @@
     }
   </script>
 </head>
-<div id="title">
-  <h1> Animal Picture Store! </h1>
-</div>
-<div class="topnav">
-  <a id="homeButton" href="./index.html"><img src='images/home.png'></a>
-  <a id="contactButton" class="active" href="./contact.html"><img src='images/comments.png'></a>
-</div>
 <div class="sidenav"></div>
 
-<body class="main">
-  <div id="contactForm">
-    <h2 id="contactHeader">Contact Us</h2>
-    <form method="post" action="https://httpbin.org/post" onsubmit=";">
-      <input class="tInput" type="text" name="fName" placeholder="First Name" required> <br>
-      <input class="tInput" type="text" name="lName" placeholder="Last Name" required> <br>
-      <input class="tInput" type="tel" name="phone#" placeholder="Phone Number" required> <br>
-      <input class="tInput" type="email" name="email" placeholder="Email" required> <br>
-      <input class="tInput" type="text" name="address" placeholder="Address" required> <br>
-      <input class="tInput" type="text" name="city" placeholder="City" list="cities" required>
-      <datalist id="cities">
-        <option value="Toronto">
-        <option value="Vancouver">
-        <option value="Montreal">
-        <option value="Ottawa">
-        <option value="Calgary">
-      </datalist> <br>
-      <input class="tInput" type="text" name="pCode" placeholder="Postal Code" required> <br>
+<body>
+  <div id='main'>
+    <div id="title">
+      <h1> Animal Picture Store! </h1>
+    </div>
+    <div class="topnav">
+      <a id="homeButton" href="./index.html"><img src='images/home.png'></a>
+      <a id="contactButton" class="active" href="./contact.html"><img src='images/comments.png'></a>
+    </div>
+    <div id="contactForm">
+      <h2 id="contactHeader">Contact Us</h2>
+      <form method="post" action="https://httpbin.org/post" onsubmit=";">
+        <input class="tInput" type="text" name="fName" placeholder="First Name" required> <br>
+        <input class="tInput" type="text" name="lName" placeholder="Last Name" required> <br>
+        <input class="tInput" type="tel" name="phone#" placeholder="Phone Number" required> <br>
+        <input class="tInput" type="email" name="email" placeholder="Email" required> <br>
+        <input class="tInput" type="text" name="address" placeholder="Address" required> <br>
+        <input class="tInput" type="text" name="city" placeholder="City" list="cities" required>
+        <datalist id="cities">
+          <option value="Toronto">
+          <option value="Vancouver">
+          <option value="Montreal">
+          <option value="Ottawa">
+          <option value="Calgary">
+        </datalist> <br>
+        <input class="tInput" type="text" name="pCode" placeholder="Postal Code" required> <br>
 
-      <br><label for="phoned">Would you like to be phoned?</label>
-      <input id="phoned" name="phoned" type="checkbox"><br>
+        <br><label for="phoned">Would you like to be phoned?</label>
+        <input id="phoned" name="phoned" type="checkbox"><br>
 
-      <ul>
-        <li><label for="question">Question</label>
-          <input id="question" name="contactType" type="radio" required><br></li>
-        <li><label for="comment">Comment</label>
-          <input id="comment" name="contactType" type="radio" required><br></li>
-        <li><label for="problem">Order Problem</label>
-          <input id="problem" name="contactType" type="radio" required><br></li>
-      </ul>
-      <div id="orderNumLoc">
-      </div>
-      <label for="msg">Message:</label> <br>
-      <textarea id="msg" name="msg" type="text" required></textarea><br>
+        <ul>
+          <li><label for="question">Question</label>
+            <input id="question" name="contactType" type="radio" required><br></li>
+          <li><label for="comment">Comment</label>
+            <input id="comment" name="contactType" type="radio" required><br></li>
+          <li><label for="problem">Order Problem</label>
+            <input id="problem" name="contactType" type="radio" required><br></li>
+        </ul>
+        <div id="orderNumLoc">
+        </div>
+        <label for="msg">Message:</label> <br>
+        <textarea id="msg" name="msg" type="text" required></textarea><br>
 
-      <input type="hidden" name="hidden" id="hidden" value="Rudy Chung" required> <br>
-      <input type="submit" value="Submit Information">
-    </form>
+        <input type="hidden" name="hidden" id="hidden" value="Rudy Chung" required> <br>
+        <input type="submit" value="Submit Information">
+      </form>
+    </div>
   </div>
   <!--    
 
