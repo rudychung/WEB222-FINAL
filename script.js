@@ -108,10 +108,8 @@ function clearTable() {
 function populateItems(items, filter = 'none') {
     var x = 0
     var filtered = []
-    //var table = document.createElement('table')
-    //table.id = 'itemList'
-    itemList = document.createElement('div')
-    itemList.id = 'itemList'
+
+    itemList = document.getElementById('itemList')
 
     if (filter != 'none') {
         for (var x in items) {
@@ -170,49 +168,44 @@ function populateItems(items, filter = 'none') {
         creditText = document.createTextNode(filtered[x].credit)
         credit.appendChild(creditText)
         item.appendChild(credit)
-        
-        itemList.appendChild(item)
 
+        itemList.appendChild(item)
     }
-    //return table;
-    return itemList
 }
 
-
 window.onload = function () {
-    var body = document.getElementById('main')
-    body.appendChild(populateItems(items))
+    populateItems(items)
 
     document.getElementById('portrait').onclick = function (e) {
         clearTable();
-        body.appendChild(populateItems(items, 'Portrait'))
+        populateItems(items, 'Portrait')
     }
     document.getElementById('landscape').onclick = function (e) {
         clearTable();
-        body.appendChild(populateItems(items, 'Landscape'))
+        populateItems(items, 'Landscape')
     }
     document.getElementById('mammal').onclick = function (e) {
         clearTable();
-        body.appendChild(populateItems(items, 'Mammal'))
+        populateItems(items, 'Mammal')
     }
     document.getElementById('bird').onclick = function (e) {
         clearTable();
-        body.appendChild(populateItems(items, 'Bird'))
+        populateItems(items, 'Bird')
     }
     document.getElementById('reptile').onclick = function (e) {
         clearTable();
-        body.appendChild(populateItems(items, 'Reptile'))
+        populateItems(items, 'Reptile')
     }
     document.getElementById('amphibian').onclick = function (e) {
         clearTable();
-        body.appendChild(populateItems(items, 'Amphibian'))
+        populateItems(items, 'Amphibian')
     }
     document.getElementById('insect').onclick = function (e) {
         clearTable();
-        body.appendChild(populateItems(items, 'Insect'))
+        populateItems(items, 'Insect')
     }
     document.getElementById('clear').onclick = function (e) {
         clearTable();
-        body.appendChild(populateItems(items))
+        populateItems(items)
     }
 }

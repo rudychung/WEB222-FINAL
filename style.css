@@ -7,7 +7,6 @@
     font-family: Verdana, Tahoma, sans-serif;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 180px;
 }
 #topBanner{
     background-color: #EEEEEE;
@@ -32,19 +31,18 @@
     height: 100px; 
     width: 700px
 }
-.itemList{
-    align-content: top;
-}
 #filterText{
     text-align: left;
     font-size: 200%;
     font-weight: bold;
 }
 .item{
+    vertical-align: middle;
+    align-content: center;
     display: inline-block;
     background-color: #EEEEEE;
     border: 5px outset #303841;
-    margin-bottom: 30px;
+    margin-bottom: 1%;
     margin-right: 1%;
     padding: 2px 2px 2px 2px;
     width: 400px;
@@ -92,7 +90,6 @@
 .topnav {
     display: grid;
     grid-template-columns: 200px 200px;
-    margin-left: 180px;
 }
   /* Style the links inside the navigation bar */
 .topnav a {
@@ -127,7 +124,7 @@
 .sidenav {
     display: grid;
     height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 165px; /* Set the width of the sidebar */
+    width: 10%; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
@@ -152,7 +149,7 @@
 
 /* Style page content */
 #main {
-    margin-left: 180px; /* Same as the width of the sidebar */
+    margin-left: 12%;
 }
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
@@ -166,7 +163,7 @@ footer {
     color: #EEEEEE;
     height: 3.5em;
 }
-.center {
+footer p {
     text-align: center;
     padding-top: 0.6em;
 }
