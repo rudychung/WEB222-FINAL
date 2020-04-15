@@ -157,6 +157,9 @@
         width: 200px;
     }
     .sidenav a {font-size: 18px;}
+    #main {
+        margin-left: 205px;
+    }
 }
 
 footer {
