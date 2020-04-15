@@ -36,14 +36,16 @@
     font-size: 200%;
     font-weight: bold;
 }
+#itemList{
+    justify-content: space-evenly; 
+}
 .item{
     vertical-align: middle;
-    align-content: center;
     display: inline-block;
     background-color: #EEEEEE;
     border: 5px outset #303841;
     margin-bottom: 1%;
-    margin-right: 1%;
+    margin-right: 5px;
     padding: 2px 2px 2px 2px;
     width: 400px;
 }
@@ -149,7 +151,7 @@
 
 /* Style page content */
 #main {
-    margin-left: 12%;
+    margin-left: 10%;
 }
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) 
 @media screen and (max-height: 450px) {
