@@ -130,7 +130,6 @@
     left: 0;
     background-color: #303841; /* Black */
     overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 20px;
 }
 /* The navigation menu links */
 .sidenav a {
@@ -153,7 +152,6 @@
 
 @media screen and (max-height: 450px) {
     .sidenav {
-        padding-top: 15px;
         width: 200px;
     }
     .sidenav a {font-size: 18px;}
