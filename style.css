@@ -4,7 +4,7 @@
     top: 0;
     left: 15vw;
     background: #EEEEEE;
-    height: 8vw;
+    height: 150px;
     width: 84vw;
     text-align: center;
 }
@@ -197,12 +197,12 @@
 
 #newsletter{
     grid-column-start: 1;
-    width: 10vw;
-    height: 1vw;
+    width: 150px;
+    height: 20px;
 }
 #newsletterButton{
-    width: 4vw;
-    height: 1.2vw;
+    width: 75px;
+    height: 20px;
 }
 #cright{
     grid-column-start: 2;
@@ -214,13 +214,18 @@ ul{
     list-style-type: none;
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 1000px){
+    #fContent{
+        display: inline-block;
+    }
     #newsletter{
         height: 1.8vw;
+        width: 15vw;
         font-size: 1.5vw;
     }
     #newsletterButton{
-        height: 3vw;
+        height: 2.5vw;
+        width: 7vw;
         font-size: 1.5vw;
     }
     #cright{
