@@ -40,13 +40,34 @@
     width: 50%;
     font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+#inputs{
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 110px 170px;
+}
+#name{
+    grid-column-start: 1;
+}
+#contact{
+    grid-column-start: 2;
+}
+#location{
+    grid-column-start: 1;
+}
+#other{
+    grid-column-start: 2;
+}
+#orderNumLoc input{
+    width: 138px;
+    height: 25px; 
+    margin-bottom: 1px;
+}
 .tInput{
     width: 250px;
     height: 25px; 
     margin-bottom: 1px;
 }
 #msg {
-    margin: 0px; 
     height: 100px; 
     width: 75%;
 }

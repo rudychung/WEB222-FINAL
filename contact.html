@@ -8,25 +8,27 @@
   <script>
     window.onload = function () {
       document.getElementById('problem').onclick = function (e) {
-        orderNumLoc = document.getElementById('orderNumLoc')
+        if (document.getElementById('orderNumDiv') == null) {
+          orderNumLoc = document.getElementById('orderNumLoc')
 
-        orderNumDiv = document.createElement('div')
-        orderNumDiv.setAttribute('id', 'orderNumDiv')
+          orderNumDiv = document.createElement('div')
+          orderNumDiv.setAttribute('id', 'orderNumDiv')
 
-        label = document.createElement('label')
-        labelText = document.createTextNode('Order Number: ')
-        label.appendChild(labelText)
-        label.setAttribute('for', 'orderNum')
-        orderNumDiv.appendChild(label)
+          label = document.createElement('label')
+          labelText = document.createTextNode('Order Number: ')
+          label.appendChild(labelText)
+          label.setAttribute('for', 'orderNum')
+          orderNumDiv.appendChild(label)
 
-        input = document.createElement('input')
-        input.setAttribute('id', 'orderNum')
-        input.setAttribute('type', 'text')
-        input.setAttribute('name', 'orderNum')
-        input.setAttribute('required', 'true')
-        orderNumDiv.appendChild(input)
+          input = document.createElement('input')
+          input.setAttribute('id', 'orderNum')
+          input.setAttribute('type', 'text')
+          input.setAttribute('name', 'orderNum')
+          input.setAttribute('required', 'true')
+          orderNumDiv.appendChild(input)
 
-        orderNumLoc.appendChild(orderNumDiv)
+          orderNumLoc.appendChild(orderNumDiv)
+        }
       }
       document.getElementById('question').onclick = function (e) {
         orderNumLoc = document.getElementById('orderNumLoc')
@@ -58,37 +60,53 @@
     <div id="contactForm">
       <h2 id="contactHeader">Contact Us</h2>
       <form method="post" action="https://httpbin.org/post" onsubmit=";">
-        <input class="tInput" type="text" name="fName" placeholder="First Name" required> <br>
-        <input class="tInput" type="text" name="lName" placeholder="Last Name" required> <br>
-        <input class="tInput" type="tel" name="phone#" placeholder="Phone Number" required> <br>
-        <input class="tInput" type="email" name="email" placeholder="Email" required> <br>
-        <input class="tInput" type="text" name="address" placeholder="Address" required> <br>
-        <input class="tInput" type="text" name="city" placeholder="City" list="cities" required>
-        <datalist id="cities">
-          <option value="Toronto">
-          <option value="Vancouver">
-          <option value="Montreal">
-          <option value="Ottawa">
-          <option value="Calgary">
-        </datalist> <br>
-        <input class="tInput" type="text" name="pCode" placeholder="Postal Code" required> <br>
-
-        <br><label for="phoned">Would you like to be phoned?</label>
-        <input id="phoned" name="phoned" type="checkbox"><br>
-
-        <ul>
-          <li><label for="question">Question</label>
-            <input id="question" name="contactType" type="radio" required><br></li>
-          <li><label for="comment">Comment</label>
-            <input id="comment" name="contactType" type="radio" required><br></li>
-          <li><label for="problem">Order Problem</label>
-            <input id="problem" name="contactType" type="radio" required><br></li>
-        </ul>
-        <div id="orderNumLoc">
+        <div id="inputs">
+          <div id="name">
+            <label for="fName">First Name:</label><br>
+            <input class="tInput" type="text" name="fName" pattern="[a-zA-Z]{0,}" required>
+            <br>
+            <label for="lName">Last Name:</label><br>
+            <input class="tInput" type="text" name="lName" pattern="[a-zA-Z]{0,}" required>
+          </div>
+          <div id="contact">
+            <label for="phone#">Phone Number:</label><br>
+            <input class="tInput" type="tel" name="phone#" pattern="[0-9]{10}" required> <br>
+            <label for="email">Email:</label><br>
+            <input class="tInput" type="email" name="email" required> <br>
+          </div>
+          <div id="location">
+            <label for="address">Address:</label><br>
+            <input class="tInput" type="text" name="address" required> <br>
+            <label for="city">City:</label><br>
+            <input class="tInput" type="text" name="city" list="cities" required>
+            <datalist id="cities">
+              <option value="Toronto">
+              <option value="Vancouver">
+              <option value="Montreal">
+              <option value="Ottawa">
+              <option value="Calgary">
+            </datalist> <br>
+            <label for="pCode">Postal Code</label><br>
+            <input class="tInput" type="text" name="pCode" pattern="[a-zA-Z][0-9][a-zA-Z][0-9][a-zA-Z][0-9]" required>
+            <br>
+          </div>
+          <div id="other">
+            <br><label for="phoned">Would you like to be phoned?</label>
+            <input id="phoned" name="phoned" type="checkbox">
+            <ul>
+              <li><label for="question">Question</label>
+                <input id="question" name="contactType" type="radio" required><br></li>
+              <li><label for="comment">Comment</label>
+                <input id="comment" name="contactType" type="radio" required><br></li>
+              <li><label for="problem">Order Problem</label>
+                <input id="problem" name="contactType" type="radio" required><br></li>
+            </ul>
+            <div id="orderNumLoc">
+            </div>
+          </div>
         </div>
         <label for="msg">Message:</label> <br>
         <textarea id="msg" name="msg" type="text" required></textarea><br>
-
         <input type="hidden" name="hidden" id="hidden" value="Rudy Chung" required> <br>
         <input type="submit" value="Submit Information">
       </form>
@@ -132,12 +150,15 @@
 </body>
 <footer>
   <form action="https://formspree.io/meqldzkp" method="POST">
-    <p>Sign up to our email newsletter!</p>
+    <p>Sign up for our newsletter!</p>
     <input id="newsletter" type="email" name="email" placeholder="Enter your email here">
     <input id="newsletterButton" type="submit" value="Sign Up">
   </form>
-  <p><a href="contact.html">Contact Us!<a></p>
+
   <p>&copy; 2020 Rudy Chung</p>
+
+  <p><a href="contact.html">Contact Us!<a></p>
+
 </footer>
 
 </html>
