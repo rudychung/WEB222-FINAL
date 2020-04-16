@@ -55,6 +55,7 @@
     font-weight: bold;
 }
 #itemList{
+    min-height: 480px;
     justify-content: space-evenly; 
 }
 .item{
@@ -173,6 +174,10 @@ footer form{
     }
     #contactForm {
         margin-right: auto;
+    }
+    #itemList{
+        min-height: 300px;
+        justify-content: space-evenly; 
     }
     .sidenav {
         width: 300px;  
