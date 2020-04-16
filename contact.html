@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8" content="width=device-width">
+  <meta charset="utf-8">
   <title>WEB222 Store - Contact</title>
   <link rel="stylesheet" href="style.css">
   <script>
@@ -47,36 +47,37 @@
     }
   </script>
 </head>
-<div class="sidenav"></div>
-
-<div id=topBanner>
-  <a id="title" href="index.html">
-    <h2> Animal Picture Store! </h2>
-  </a>
-</div>
 
 <body>
+  <div class="sidenav"></div>
+  <div id=topBanner>
+    <a id="title" href="index.html">
+      <h2> Animal Picture Store! </h2>
+    </a>
+  </div>
   <div id='main'>
     <form id="contactForm" method="post" action="https://httpbin.org/post">
       <div id="inputs">
         <div id="name">
           <label for="fName">First Name:</label><br>
-          <input class="tInput" type="text" name="fName" pattern="[a-zA-Z]{0,}" required>
+          <input class="tInput" type="text" id="fName" pattern="[a-zA-Z]{0,}" required>
           <br>
           <label for="lName">Last Name:</label><br>
-          <input class="tInput" type="text" name="lName" pattern="[a-zA-Z]{0,}" required>
+          <input class="tInput" type="text" id="lName" pattern="[a-zA-Z]{0,}" required>
         </div>
+
         <div id="contactInfo">
           <label for="phone#">Phone Number:</label><br>
-          <input class="tInput" type="tel" name="phone#" pattern="[0-9]{10}" placeholder="0123456789" required> <br>
+          <input class="tInput" type="tel" id="phone#" pattern="[0-9]{10}" placeholder="0123456789" required> <br>
           <label for="email">Email:</label><br>
-          <input class="tInput" type="email" name="email" required> <br>
+          <input class="tInput" type="email" id="email" required> <br>
         </div>
+
         <div id="location">
           <label for="address">Address:</label><br>
-          <input class="tInput" type="text" name="address" required> <br>
+          <input class="tInput" type="text" id="address" required> <br>
           <label for="city">City:</label><br>
-          <input class="tInput" type="text" name="city" list="cities" required>
+          <input class="tInput" type="text" id="city" list="cities" required>
           <datalist id="cities">
             <option value="Toronto">
             <option value="Vancouver">
@@ -85,35 +86,52 @@
             <option value="Calgary">
           </datalist> <br>
           <label for="pCode">Postal Code:</label><br>
-          <input class="tInput" type="text" name="pCode" pattern="[a-zA-Z][0-9][a-zA-Z][0-9][a-zA-Z][0-9]"
+          <input class="tInput" type="text" id="pCode" pattern="[a-zA-Z][0-9][a-zA-Z][0-9][a-zA-Z][0-9]"
             placeholder="A1B2C3" required>
           <br>
         </div>
+
         <div id="other">
           <br><label for="phoned">Would you like to be phoned?</label>
-          <input id="phoned" name="phoned" type="checkbox">
+          <input id="phoned" type="checkbox">
           <ul>
             <li><label for="question">Question</label>
-              <input id="question" name="contactType" type="radio" required><br></li>
+              <input id="question" type="radio" required><br></li>
             <li><label for="comment">Comment</label>
-              <input id="comment" name="contactType" type="radio" required><br></li>
+              <input id="comment" type="radio" required><br></li>
             <li><label for="problem">Order Problem</label>
-              <input id="problem" name="contactType" type="radio" required><br></li>
+              <input id="problem" type="radio" required><br></li>
           </ul>
+
           <div id="orderNumLoc">
           </div>
         </div>
       </div>
+
       <div id='message'>
         <label for="msg">Message:</label> <br>
-        <textarea id="msg" name="msg" type="text" required></textarea><br>
+        <textarea id="msg" required></textarea><br>
       </div>
-      <input type="hidden" name="hidden" id="hidden" value="Rudy Chung" required> <br>
+      <input type="hidden" id="hidden" value="Rudy Chung"> <br>
       <input type="submit" value="Submit Information">
     </form>
   </div>
+  <div id='fContent'>
+    <form id='subscribe' action="https://formspree.io/meqldzkp" method="POST">
+      <label for='newsletter'>Sign up for our newsletter!</label> <br>
+      <input id="newsletter" type="email" placeholder="Enter your email here">
+      <input id="newsletterButton" type="submit" value="Sign Up">
+    </form>
+
+    <p id='cright'>&copy; 2020 Rudy Chung</p>
+
+    <p id='contact'><a href="contact.html">Contact Us!</a></p>
   </div>
-  <!--    
+</body>
+
+</html>
+
+<!--    
 
     Part 2: Contact Us Page
 
@@ -148,19 +166,3 @@
     all data defined in the form above (e.g., visible and hidden fields).
 
   -->
-</body>
-<footer>
-  <div id='fContent'>
-    <form id='subscribe' action="https://formspree.io/meqldzkp" method="POST">
-      <label for='email'>Sign up for our newsletter!</label> <br>
-      <input id="newsletter" type="email" name="email" placeholder="Enter your email here">
-      <input id="newsletterButton" type="submit" value="Sign Up">
-    </form>
-
-    <p id='cright'>&copy; 2020 Rudy Chung</p>
-
-    <p id='contact'><a href="contact.html">Contact Us!</a></p>
-  </div>
-</footer>
-
-</html>

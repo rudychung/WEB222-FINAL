@@ -1,45 +1,61 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8" content="width=device-width">
+  <meta charset="utf-8">
   <title>WEB222 Store</title>
   <link rel="stylesheet" href="style.css">
-  <script src="script.js">
-
-  </script>
+  <script src="script.js"></script>
 </head>
 
-<div id=topBanner>
-  <a id="title" href="index.html">
-    <h2> Animal Picture Store! </h2>
-  </a>
-</div>
-
-<div class="sidenav">
-  <p class=filter>Filter By:</p>
-  <div class=filterType>Orientation:
-    <li> <a href="#" class="filter" id="portrait">Portrait</a> </li>
-    <li> <a href="#" class="filter" id="landscape">Landscape</a> </li>
-  </div>
-  <div class=filterType>Category:
-    <li> <a href="#" class="filter" id="mammal">Mammal</a> </li>
-    <li> <a href="#" class="filter" id="bird">Bird</a> </li>
-    <li> <a href="#" class="filter" id="reptile">Reptile</a> </li>
-    <li> <a href="#" class="filter" id="amphibian">Amphibian</a> </li>
-    <li> <a href="#" class="filter" id="insect">Insect</a> </li>
-  </div>
-  <a href="#" class="filterType" id="clear">Clear Filter</a>
-</div>
-
 <body>
+  <div id=topBanner>
+    <a id="title" href="index.html">
+      <h2> Animal Picture Store! </h2>
+    </a>
+  </div>
+
+  <div class="sidenav">
+    <p class=filter>Filter By:</p>
+    <div class=filterType>Orientation:
+      <ul>
+        <li> <a href="#" class="filter" id="portrait">Portrait</a> </li>
+        <li> <a href="#" class="filter" id="landscape">Landscape</a> </li>
+      </ul>
+    </div>
+    <div class=filterType>Category:
+      <ul>
+        <li> <a href="#" class="filter" id="mammal">Mammal</a> </li>
+        <li> <a href="#" class="filter" id="bird">Bird</a> </li>
+        <li> <a href="#" class="filter" id="reptile">Reptile</a> </li>
+        <li> <a href="#" class="filter" id="amphibian">Amphibian</a> </li>
+        <li> <a href="#" class="filter" id="insect">Insect</a> </li>
+      </ul>
+    </div>
+    <a href="#" class="filterType" id="clear">Clear Filter</a>
+  </div>
+
   <div id=main>
     <p id=storeDesc>We sell high quality canvas prints of animal photos. We carry a variety of different types of
       animals from fish to insects.</p>
   </div>
-  <!-- Page content -->
+  <div id='fContent'>
+    <form id='subscribe' action="https://formspree.io/meqldzkp" method="POST">
+      <label for='newsletter'>Sign up for our newsletter!</label> <br>
+      <input id="newsletter" type="email" name="email" placeholder="Enter your email here">
+      <input id="newsletterButton" type="submit" value="Sign Up">
+    </form>
 
-  <!--
+    <p id='cright'>&copy; 2020 Rudy Chung</p>
+
+    <p id='contact'><a href="contact.html">Contact Us!</a></p>
+  </div>
+</body>
+
+</html>
+<!-- Page content -->
+
+<!--
       Part 1: Main Store Page
 
       Requirements:
@@ -129,20 +145,3 @@
       in software is to let someone who didn't build it try to use it!
       
     -->
-</body>
-
-<footer>
-  <div id='fContent'>
-    <form id='subscribe' action="https://formspree.io/meqldzkp" method="POST">
-      <label for='email'>Sign up for our newsletter!</label> <br>
-      <input id="newsletter" type="email" name="email" placeholder="Enter your email here">
-      <input id="newsletterButton" type="submit" value="Sign Up">
-    </form>
-
-    <p id='cright'>&copy; 2020 Rudy Chung</p>
-
-    <p id='contact'><a href="contact.html">Contact Us!</a></p>
-  </div>
-</footer>
-
-</html>

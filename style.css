@@ -1,5 +1,3 @@
-/** Add any CSS you need to this file. */
-
 /* Top Banner */
 #topBanner{
     position: absolute;
@@ -13,7 +11,7 @@
 #title {
     display: inline-block;
     margin-top: 1.5vw;
-    width: 30vw;
+    width: auto;
     height: 2vw;
     border: 0.3vw solid #D72323;
     padding: 1vw;
@@ -61,6 +59,8 @@
 }
 
 #main {
+    justify-content: center;
+    align-content: center;
     margin-left: 15.5vw;
 }
 
@@ -128,9 +128,7 @@
 
 /* Contact form */
 #contactForm {
-    padding-top: 3vw;
-    margin: auto;
-    width: 50%;
+    padding-top: 12vw;
     font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 #inputs{
@@ -169,7 +167,7 @@
 }
 
 /* Footer contents */
-footer {
+#fContent{
     position: fixed;
     z-index: 1;
     bottom: 0;
@@ -180,8 +178,6 @@ footer {
     color: #303841;
     width: 85vw;
     max-height: 75px;
-}
-#fContent{
     text-align: center;
     display: grid;
     grid-template-columns: auto ;
