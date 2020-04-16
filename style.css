@@ -1,5 +1,6 @@
 /** Add any CSS you need to this file. */
 
+/* Top Banner */
 #topBanner{
     background: #EEEEEE;
     text-align: center;
@@ -25,6 +26,11 @@
     text-decoration: none;
 }
 
+#main {
+    margin-left: 200px;
+}
+
+/* Contact form */
 #contactHeader{
     text-align: center;
     font-size: 200%;
@@ -44,6 +50,8 @@
     height: 100px; 
     width: 700px
 }
+
+/* Main page contents */
 #storeDesc{
     font-family: raleway;
     font-size: 25px;
@@ -105,6 +113,7 @@
     text-align: center;
 }
 
+/* Side bar */
 .sidenav {
     height: 100%;
     width: 200px; 
@@ -137,10 +146,7 @@
     text-indent: 20px;
 }
 
-#main {
-    margin-left: 200px;
-}
-
+/* Footer contents */
 footer {
     display: grid;
     position: fixed;
@@ -150,17 +156,14 @@ footer {
     font-size: 25px;
     background-color: #EEEEEE;
     color: #303841;
-    width: 99%;
-    align-content: center;
+    width: 100%;
     justify-content: space-evenly;
     grid-template-columns: 20% 20% 20% 10%;
     margin-left: 200px;
-    padding-bottom: 10px;
     height:75px;
 }
 footer p {
     text-align: center;
-    padding-top: 0.6em;
     margin: auto;
 }
 footer form{
