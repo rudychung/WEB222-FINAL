@@ -193,6 +193,11 @@ footer form{
     }
 }
 
+body{
+    height: 100%;
+    width: 95%
+}
+
 @font-face{
     font-family: montserrat;
     src: url('fonts/montserrat/Montserrat-Black.ttf')
