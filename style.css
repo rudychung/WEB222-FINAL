@@ -55,7 +55,7 @@
     font-weight: bold;
 }
 #itemList{
-    padding-bottom: 65px;
+    padding-bottom: 75px;
 }
 .item{
     vertical-align: middle;
@@ -107,7 +107,7 @@
 
 .sidenav {
     height: 100%;
-    width: 150px; 
+    width: 200px; 
     position: fixed; 
     z-index: 2; 
     top: 0; 
@@ -116,18 +116,18 @@
     overflow-x: hidden; 
     color: #EEEEEE;   
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif; 
-    font-size: 20px;
+    font-size: 35px;
 }
 .sidenav .filterType{
     color: #D72323;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 35px;
     padding-left: 10px;
 }
 .sidenav a {
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     color: #EEEEEE;    
     line-height: 300%;
     padding-left: 25px;
@@ -137,7 +137,7 @@
 }
 
 #main {
-    margin-left: 155px;
+    margin-left: 200px;
 }
 
 footer {
@@ -153,7 +153,7 @@ footer {
     align-content: center;
     justify-content: space-evenly;
     grid-template-columns: 33% 33% 33%;
-    margin-left: 50px;
+    margin-left: 100px;
     padding-bottom: 10px;
     height:75px;
 }
@@ -185,17 +185,11 @@ footer form{
         min-height: 300px;
         justify-content: space-evenly; 
     }
-    .sidenav {
-        width: 300px;  
-    }
     .sidenav .filterType{
         font-size: 30px;
     }
     .sidenav a {
         font-size: 30px;
-    }
-    #main {
-        margin-left: 205px;
     }
 }
 

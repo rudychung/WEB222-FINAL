@@ -6,7 +6,7 @@ const items = [
         orientation: 'Landscape',
         name: 'Banana Wrasse',
         img: 'david-clode-l-QdJMZX7PU-unsplash.jpg',
-        price: 20.99,
+        price: 35.99,
         credit: 'Photo by Mathew Schwartz on Unsplash'
     },
     {
@@ -14,7 +14,7 @@ const items = [
         orientation: 'Landscape',
         name: 'Bee',
         img: 'usgs-F8JH5TX0hhs-unsplash.jpg',
-        price: 20.99,
+        price: 15.99,
         credit: 'Photo by USGS on Unsplash'
     },
     {
@@ -22,7 +22,7 @@ const items = [
         orientation: 'Landscape',
         name: 'Butterfly',
         img: 'david-clode-sD5xXDlBY7Y-unsplash.jpg',
-        price: 20.99,
+        price: 40.99,
         credit: 'Photo by David Clode on Unsplash'
     },
     {
@@ -38,7 +38,7 @@ const items = [
         orientation: 'Landscape',
         name: 'Crocodile',
         img: 'rajeevan-msn-cIU4jIZDOmI-unsplash.jpg',
-        price: 20.99,
+        price: 32.99,
         credit: 'Photo by Rajeevan MSN on Unsplash'
     },
     {
@@ -46,7 +46,7 @@ const items = [
         orientation: 'Landscape',
         name: 'Eagle',
         img: 'zdenek-machacek-fzdVhDxAQsU-unsplash.jpg',
-        price: 20.99,
+        price: 42.99,
         credit: 'Photo by Zdeněk Macháček on Unsplash'
     },
     {
@@ -54,7 +54,7 @@ const items = [
         orientation: 'Landscape',
         name: 'Egret',
         img: 'mathew-schwartz-B87kwVXbKhI-unsplash.jpg',
-        price: 20.99,
+        price: 46.99,
         credit: 'Photo by Mathew Schwartz on Unsplash'
     },
     {
@@ -78,7 +78,7 @@ const items = [
         orientation: 'Landscape',
         name: 'Rooster',
         img: 'ashes-sitoula-KdZvvyemkPM-unsplash.jpg',
-        price: 20.99,
+        price: 46.99,
         credit: 'Photo by Ashes Sitoula on Unsplash'
     },
     {
@@ -86,7 +86,7 @@ const items = [
         orientation: 'Landscape',
         name: 'Shark',
         img: 'greg-jeanneau-pf1fMYwrEgg-unsplash.jpg',
-        price: 20.99,
+        price: 24.99,
         credit: 'Photo by Greg Jeanneau on Unsplash'
     },
     {
@@ -94,7 +94,7 @@ const items = [
         orientation: 'Landscape',
         name: 'Snake',
         img: 'marius-masalar-LN_gdbQtzvk-unsplash.jpg',
-        price: 20.99,
+        price: 27.99,
         credit: 'Photo by Marius Masalar on Unsplash'
     },
     {
