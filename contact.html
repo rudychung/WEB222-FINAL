@@ -57,60 +57,61 @@
 
 <body>
   <div id='main'>
-    <div id="contactForm">
-      <h2 id="contactHeader">Contact Us</h2>
-      <form method="post" action="https://httpbin.org/post" onsubmit=";">
-        <div id="inputs">
-          <div id="name">
-            <label for="fName">First Name:</label><br>
-            <input class="tInput" type="text" name="fName" pattern="[a-zA-Z]{0,}" required>
-            <br>
-            <label for="lName">Last Name:</label><br>
-            <input class="tInput" type="text" name="lName" pattern="[a-zA-Z]{0,}" required>
-          </div>
-          <div id="contact">
-            <label for="phone#">Phone Number:</label><br>
-            <input class="tInput" type="tel" name="phone#" pattern="[0-9]{10}" placeholder="0123456789" required> <br>
-            <label for="email">Email:</label><br>
-            <input class="tInput" type="email" name="email" required> <br>
-          </div>
-          <div id="location">
-            <label for="address">Address:</label><br>
-            <input class="tInput" type="text" name="address" required> <br>
-            <label for="city">City:</label><br>
-            <input class="tInput" type="text" name="city" list="cities" required>
-            <datalist id="cities">
-              <option value="Toronto">
-              <option value="Vancouver">
-              <option value="Montreal">
-              <option value="Ottawa">
-              <option value="Calgary">
-            </datalist> <br>
-            <label for="pCode">Postal Code</label><br>
-            <input class="tInput" type="text" name="pCode" pattern="[a-zA-Z][0-9][a-zA-Z][0-9][a-zA-Z][0-9]" placeholder="A1B2C3" required>
-            <br>
-          </div>
-          <div id="other">
-            <br><label for="phoned">Would you like to be phoned?</label>
-            <input id="phoned" name="phoned" type="checkbox">
-            <ul>
-              <li><label for="question">Question</label>
-                <input id="question" name="contactType" type="radio" required><br></li>
-              <li><label for="comment">Comment</label>
-                <input id="comment" name="contactType" type="radio" required><br></li>
-              <li><label for="problem">Order Problem</label>
-                <input id="problem" name="contactType" type="radio" required><br></li>
-            </ul>
-            <div id="orderNumLoc">
-            </div>
+    <form id="contactForm" method="post" action="https://httpbin.org/post">
+      <div id="inputs">
+        <div id="name">
+          <label for="fName">First Name:</label><br>
+          <input class="tInput" type="text" name="fName" pattern="[a-zA-Z]{0,}" required>
+          <br>
+          <label for="lName">Last Name:</label><br>
+          <input class="tInput" type="text" name="lName" pattern="[a-zA-Z]{0,}" required>
+        </div>
+        <div id="contactInfo">
+          <label for="phone#">Phone Number:</label><br>
+          <input class="tInput" type="tel" name="phone#" pattern="[0-9]{10}" placeholder="0123456789" required> <br>
+          <label for="email">Email:</label><br>
+          <input class="tInput" type="email" name="email" required> <br>
+        </div>
+        <div id="location">
+          <label for="address">Address:</label><br>
+          <input class="tInput" type="text" name="address" required> <br>
+          <label for="city">City:</label><br>
+          <input class="tInput" type="text" name="city" list="cities" required>
+          <datalist id="cities">
+            <option value="Toronto">
+            <option value="Vancouver">
+            <option value="Montreal">
+            <option value="Ottawa">
+            <option value="Calgary">
+          </datalist> <br>
+          <label for="pCode">Postal Code:</label><br>
+          <input class="tInput" type="text" name="pCode" pattern="[a-zA-Z][0-9][a-zA-Z][0-9][a-zA-Z][0-9]"
+            placeholder="A1B2C3" required>
+          <br>
+        </div>
+        <div id="other">
+          <br><label for="phoned">Would you like to be phoned?</label>
+          <input id="phoned" name="phoned" type="checkbox">
+          <ul>
+            <li><label for="question">Question</label>
+              <input id="question" name="contactType" type="radio" required><br></li>
+            <li><label for="comment">Comment</label>
+              <input id="comment" name="contactType" type="radio" required><br></li>
+            <li><label for="problem">Order Problem</label>
+              <input id="problem" name="contactType" type="radio" required><br></li>
+          </ul>
+          <div id="orderNumLoc">
           </div>
         </div>
+      </div>
+      <div id='message'>
         <label for="msg">Message:</label> <br>
         <textarea id="msg" name="msg" type="text" required></textarea><br>
-        <input type="hidden" name="hidden" id="hidden" value="Rudy Chung" required> <br>
-        <input type="submit" value="Submit Information">
-      </form>
-    </div>
+      </div>
+      <input type="hidden" name="hidden" id="hidden" value="Rudy Chung" required> <br>
+      <input type="submit" value="Submit Information">
+    </form>
+  </div>
   </div>
   <!--    
 
@@ -149,16 +150,17 @@
   -->
 </body>
 <footer>
-  <form action="https://formspree.io/meqldzkp" method="POST">
-    <p>Sign up for our newsletter!</p>
-    <input id="newsletter" type="email" name="email" placeholder="Enter your email here">
-    <input id="newsletterButton" type="submit" value="Sign Up">
-  </form>
+  <div id='fContent'>
+    <form id='subscribe' action="https://formspree.io/meqldzkp" method="POST">
+      <label for='email'>Sign up for our newsletter!</label> <br>
+      <input id="newsletter" type="email" name="email" placeholder="Enter your email here">
+      <input id="newsletterButton" type="submit" value="Sign Up">
+    </form>
 
-  <p>&copy; 2020 Rudy Chung</p>
+    <p id='cright'>&copy; 2020 Rudy Chung</p>
 
-  <p><a href="contact.html">Contact Us!<a></p>
-
+    <p id='contact'><a href="contact.html">Contact Us!</a></p>
+  </div>
 </footer>
 
 </html>
