@@ -152,6 +152,9 @@ footer form{
 }
 
 @media screen and (max-height: 450px) {
+    #title h2{
+        font-size: 25px;
+    }
     #contactForm {
         margin: 0;
     }
