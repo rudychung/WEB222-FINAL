@@ -62,48 +62,6 @@
     margin-left: 10.5vw;
 }
 
-/* Contact form */
-#contactHeader{
-    text-align: left;
-    font-size: 200%;
-}
-#contactForm {
-    margin: auto;
-    width: 50%;
-    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-#inputs{
-    display: grid;
-    grid-template-columns: 35% 10% 25%;
-    grid-template-rows: 110px 170px;
-}
-#name{
-    grid-column-start: 1;
-}
-#contact{
-    grid-column-start: 3;
-}
-#location{
-    grid-column-start: 1;
-}
-#other{
-    grid-column-start: 3;
-}
-#orderNumLoc input{
-    width: 138px;
-    height: 25px; 
-    margin-bottom: 1px;
-}
-.tInput{
-    width: 250px;
-    height: 25px; 
-    margin-bottom: 1px;
-}
-#msg {
-    height: 100px; 
-    width: 75%;
-}
-
 /* Main page contents */
 #storeDesc{
     font-family: raleway;
@@ -164,6 +122,48 @@
 .iCredit{
     font-family: Verdana, Tahoma, sans-serif;
     text-align: center;
+}
+
+/* Contact form */
+#contactHeader{
+    text-align: left;
+    font-size: 200%;
+}
+#contactForm {
+    margin: auto;
+    width: 50%;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#inputs{
+    display: grid;
+    grid-template-columns: 35% 10% 25%;
+    grid-template-rows: 110px 170px;
+}
+#name{
+    grid-column-start: 1;
+}
+#contact{
+    grid-column-start: 3;
+}
+#location{
+    grid-column-start: 1;
+}
+#other{
+    grid-column-start: 3;
+}
+#orderNumLoc input{
+    width: 138px;
+    height: 25px; 
+    margin-bottom: 1px;
+}
+.tInput{
+    width: 250px;
+    height: 25px; 
+    margin-bottom: 1px;
+}
+#msg {
+    height: 100px; 
+    width: 35vw;
 }
 
 /* Footer contents */
