@@ -58,6 +58,14 @@ const items = [
         credit: 'Photo by Mathew Schwartz on Unsplash'
     },
     {
+        category: 'Amphibian',
+        orientation: 'Portrait',
+        name: 'Frog',
+        img: 'drew-brown-VBvoy5gofWg-unsplash.jpg',
+        price: 35.99,
+        credit: 'Photo by Drew Brown on Unsplash'
+    },
+    {
         category: 'Mammal',
         orientation: 'Portrait',
         name: 'Horse',
