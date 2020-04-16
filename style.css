@@ -117,6 +117,7 @@
     color: #EEEEEE;   
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif; 
     font-size: 35px;
+    border-right: 3px solid #D72323;
 }
 .sidenav .filterType{
     color: #D72323;
@@ -153,7 +154,7 @@ footer {
     align-content: center;
     justify-content: space-evenly;
     grid-template-columns: 33% 33% 33%;
-    margin-left: 100px;
+    margin-left: 200px;
     padding-bottom: 10px;
     height:75px;
 }
