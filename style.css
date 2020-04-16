@@ -172,7 +172,7 @@ footer {
     z-index: 1;
     bottom: 0;
     font-family: raleway;
-    font-size: 25px;
+    font-size: 1vw;
     background-color: #EEEEEE;
     color: #303841;
     width: 100%;
@@ -186,11 +186,13 @@ footer {
 
 #newsletter{
     height: 25px;
-    width: 275px
+    width: 275px;
+    font-size: 0.7vw;
 }
 #newsletterButton{
-    height: 30px;
+    height: 31px;
     width: 75px;
+    font-size: 0.7vw;
 }
 
 @media screen and (max-height: 450px) {
