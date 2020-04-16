@@ -204,6 +204,9 @@
 }
 
 @media screen and (max-width: 450px){
+    .item{
+        min-width: 70vw;
+    }
 }
 
 @font-face{
