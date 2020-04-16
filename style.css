@@ -136,7 +136,7 @@
 #inputs{
     display: grid;
     grid-template-columns: 25vw 25vw;
-    grid-template-rows: auto 12vw;
+    grid-template-rows: auto 15vw;
 }
 #name{
     grid-column-start: 1;
@@ -157,7 +157,7 @@
 }
 .tInput{
     width: 13vw;
-    height: 1.2vw; 
+    height: 1vw; 
     margin-bottom: 1px;
 }
 #msg {
@@ -203,7 +203,7 @@
     grid-column-start: 3;
 }
 
-@media screen and (max-height: 450px){
+@media screen and (max-width: 450px){
 }
 
 @font-face{
