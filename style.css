@@ -1,35 +1,36 @@
 /* Top Banner */
 #topBanner{
-    position: absolute;
-    top: 0;
-    left: 15vw;
+    display: block;
     background: #EEEEEE;
     height: 150px;
-    width: 84vw;
+    margin-left: 225px;
+    overflow-x: hidden;
     text-align: center;
 }
 #title {
     display: inline-block;    
-    margin-top: 1.5vw;
-    border: 0.3vw solid #D72323;
-    padding: 1vw;
+    margin-top: 20px;
+    border: 3px solid #D72323;
+    padding: 15px;
     width: auto;
-    height: 2vw;
+    height: 75px;
     background: #FFFFFF;
     text-decoration: none;
+    overflow-x: hidden;
 }
 #title h2{
     margin: 0;
     color: #000000;
     font-family: montserrat;
-    font-size: 2vw;
+    font-size: 59px;
     text-decoration: none;
+
 }
 
 /* Side bar */
 .sidenav {
     height: 100%;
-    width: 15vw; 
+    width: 225px; 
     position: fixed; 
     z-index: 2; 
     top: 0; 
@@ -38,19 +39,19 @@
     overflow-x: hidden; 
     color: #EEEEEE;   
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif; 
-    font-size: 1.5vw;
+    font-size: 35px;
     border-right: 0.2vw solid #D72323;
 }
 .sidenav .filterType{
     color: #D72323;
     text-decoration: none;
-    font-size: 1.5vw;
+    font-size: 30px;
     padding-left: 10px;
 }
 .sidenav a {
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-    font-size: 1.2vw;
+    font-size: 20px;
     color: #EEEEEE;    
     line-height: 4vw;
 }
@@ -60,7 +61,7 @@
 
 #main {
     text-align: center;
-    margin-left: 15.5vw;
+    margin-left: 225px;
 }
 
 /* Main page contents */
@@ -68,7 +69,6 @@
     font-family: raleway;
     font-size: 25px;
     text-align: center;
-    margin-top: 8vw;
 }
 #filterText{
     font-size: 200%;
@@ -134,7 +134,7 @@
 /* Contact form */
 #contactForm {
     display: inline-block;
-    margin-top: 12vw;
+    margin-top: 20px;
     padding: 1vw;
     font-size: 1vw;
     font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -182,21 +182,22 @@
 /* Footer contents */
 #fContent{
     display: grid;
-    grid-template-columns: auto ;
+    grid-template-columns: 225px ;
     position: fixed;
     z-index: 1;
     bottom: 0;
-    left: 15%;
-    width: 85vw;
+    width: 100%;
     background-color: #EEEEEE;
     font-family: raleway;
     font-size: auto;
     color: #303841;
     text-align: center;
+    overflow-x: hidden;
 }
-
+#subscribe{
+    grid-column-start: 2;
+}
 #newsletter{
-    grid-column-start: 1;
     width: 150px;
     height: 20px;
 }
@@ -205,16 +206,16 @@
     height: 20px;
 }
 #cright{
-    grid-column-start: 2;
+    grid-column-start: 3;
 }
 #contact{
-    grid-column-start: 3;
+    grid-column-start: 4;
 }
 ul{
     list-style-type: none;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 800px){
     #fContent{
         display: inline-block;
     }
