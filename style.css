@@ -136,7 +136,7 @@
 #inputs{
     display: grid;
     grid-template-columns: 25vw 25vw;
-    grid-template-rows: auto 15vw;
+    grid-template-rows: auto 200px;
 }
 #name{
     grid-column-start: 1;
