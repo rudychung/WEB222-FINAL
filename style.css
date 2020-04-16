@@ -182,10 +182,9 @@
     bottom: 0;
     left: 15%;
     width: 85vw;
-    max-height: 75px;
     background-color: #EEEEEE;
     font-family: raleway;
-    font-size: 1.1vw;
+    font-size: auto;
     color: #303841;
     text-align: center;
 }
@@ -194,12 +193,10 @@
     grid-column-start: 1;
     width: 10vw;
     height: 1vw;
-    font-size: 0.8vw;
 }
 #newsletterButton{
     width: 4vw;
     height: 1.2vw;
-    font-size: 0.8vw;
 }
 #cright{
     grid-column-start: 2;
