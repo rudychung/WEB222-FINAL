@@ -4,9 +4,9 @@
     top: 0;
     left: 15vw;
     background: #EEEEEE;
-    text-align: center;
     height: 8vw;
     width: 85vw;
+    text-align: center;
 }
 #title {
     display: inline-block;
@@ -128,13 +128,15 @@
 
 /* Contact form */
 #contactForm {
+    display: inline-block;
     padding-top: 12vw;
+    font-size: 1vw;
     font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 #inputs{
     display: grid;
-    grid-template-columns: 22vw 13vw;
-    grid-template-rows: 110px 170px;
+    grid-template-columns: 25vw 25vw;
+    grid-template-rows: auto 12vw;
 }
 #name{
     grid-column-start: 1;
@@ -149,49 +151,49 @@
     grid-column-start: 2;
 }
 #orderNumLoc input{
-    width: 135px;
-    height: 25px; 
+    width: 6.9vw;
+    height: 1.2vw; 
     margin-bottom: 1px;
 }
 .tInput{
-    width: 250px;
-    height: 25px; 
+    width: 13vw;
+    height: 1.2vw; 
     margin-bottom: 1px;
 }
 #msg {
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 3;
-    height: 100px; 
     width: 35vw;
+    height: 5vw; 
 }
 
 /* Footer contents */
 #fContent{
+    display: grid;
+    grid-template-columns: auto ;
     position: fixed;
     z-index: 1;
     bottom: 0;
     left: 15%;
-    font-family: raleway;
-    font-size: 1.1vw;
-    background-color: #EEEEEE;
-    color: #303841;
     width: 85vw;
     max-height: 75px;
+    background-color: #EEEEEE;
+    font-family: raleway;
+    font-size: 1.1vw;
+    color: #303841;
     text-align: center;
-    display: grid;
-    grid-template-columns: auto ;
 }
 
 #newsletter{
     grid-column-start: 1;
-    height: 1vw;
     width: 10vw;
+    height: 1vw;
     font-size: 0.8vw;
 }
 #newsletterButton{
-    height: 1.2vw;
     width: 4vw;
+    height: 1.2vw;
     font-size: 0.8vw;
 }
 #cright{
