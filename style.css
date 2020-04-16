@@ -5,7 +5,7 @@
     left: 15vw;
     background: #EEEEEE;
     height: 8vw;
-    width: 85vw;
+    width: 84vw;
     text-align: center;
 }
 #title {
@@ -59,8 +59,7 @@
 }
 
 #main {
-    justify-content: center;
-    align-content: center;
+    text-align: center;
     margin-left: 15.5vw;
 }
 
@@ -84,7 +83,7 @@
     background-color: #EEEEEE;
     margin-bottom: 1vw;
     margin-right: 3vw;
-    padding: 2px 2px 2px 2px;
+    padding: 2px;
     width: 325px;
 }
 .iTitle{
@@ -129,26 +128,32 @@
 /* Contact form */
 #contactForm {
     display: inline-block;
-    padding-top: 12vw;
+    margin-top: 12vw;
+    padding: 1vw;
     font-size: 1vw;
     font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #EEEEEE;
 }
 #inputs{
     display: grid;
-    grid-template-columns: 25vw 25vw;
-    grid-template-rows: auto 200px;
+    grid-template-columns:auto;
+    grid-template-rows: auto 10vw;
 }
 #name{
     grid-column-start: 1;
+    padding-right:5vw;
 }
 #contactInfo{
     grid-column-start: 2;
+    padding-left: 5vw;
 }
 #location{
     grid-column-start: 1;
+    padding-right:5vw;
 }
 #other{
     grid-column-start: 2;
+    padding-left: 5vw;
 }
 #orderNumLoc input{
     width: 6.9vw;
@@ -164,7 +169,7 @@
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 3;
-    width: 35vw;
+    width: 37vw;
     height: 5vw; 
 }
 
@@ -202,11 +207,13 @@
 #contact{
     grid-column-start: 3;
 }
+ul{
+    list-style-type: none;
+    text-align: left;
+}
 
 @media screen and (max-width: 450px){
-    .item{
-        min-width: 70vw;
-    }
+
 }
 
 @font-face{
