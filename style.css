@@ -114,11 +114,13 @@
     left: 0;
     background-color: #303841; 
     overflow-x: hidden; 
+    color: #EEEEEE;   
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif; 
+    font-size: 20px;
 }
 .sidenav .filterType{
     color: #D72323;
     text-decoration: none;
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     font-size: 20px;
     padding-left: 10px;
 }
