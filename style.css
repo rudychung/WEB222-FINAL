@@ -212,11 +212,23 @@
 }
 ul{
     list-style-type: none;
-    text-align: left;
 }
 
 @media screen and (max-width: 450px){
-
+    #newsletter{
+        height: 1.8vw;
+        font-size: 1.5vw;
+    }
+    #newsletterButton{
+        height: 2vw;
+        font-size: 1.5vw;
+    }
+    #cright{
+        font-size: 1.5vw;
+    }
+    #contact{
+        font-size: 1.5vw;
+    }
 }
 
 @font-face{
