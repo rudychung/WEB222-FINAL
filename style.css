@@ -191,6 +191,10 @@ footer form{
     .sidenav a {
         font-size: 30px;
     }
+    footer{
+        margin-left: 200px;
+        font-size: 12px;
+    }
 }
 
 @font-face{
