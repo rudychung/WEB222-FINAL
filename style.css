@@ -4,15 +4,16 @@
 #topBanner{
     background: #EEEEEE;
     text-align: center;
-    height: 150px;
+    height: 8vw;
     width: 100%;
 }
 #title {
+    vertical-align: middle;
     display: inline-block;
     margin: auto;
-    margin-top: 20px;
-    min-width: 2.5vw;
-    min-height: 2.5vw;
+    width: 30vw;
+    height: 2vw;
+    margin-top: 1vw;
     border: 3px solid #D72323;
     padding: 20px;
     background: #FFFFFF;
@@ -29,7 +30,7 @@
 /* Side bar */
 .sidenav {
     height: 100%;
-    width: 10vw; 
+    width: 14vw; 
     position: fixed; 
     z-index: 2; 
     top: 0; 
@@ -59,7 +60,7 @@
 }
 
 #main {
-    margin-left: 10.5vw;
+    margin-left: 14.5vw;
 }
 
 /* Main page contents */
@@ -80,8 +81,8 @@
     vertical-align: middle;
     display: inline-block;
     background-color: #EEEEEE;
-    margin-bottom: 1%;
-    margin-right: 5%;
+    margin-bottom: 1vw;
+    margin-right: 3vw;
     padding: 2px 2px 2px 2px;
     width: 325px;
 }
@@ -172,7 +173,7 @@ footer {
     z-index: 1;
     bottom: 0;
     font-family: raleway;
-    font-size: 1vw;
+    font-size: 1.1vw;
     background-color: #EEEEEE;
     color: #303841;
     width: 100%;
@@ -185,14 +186,14 @@ footer {
 }
 
 #newsletter{
-    height: 25px;
-    width: 275px;
-    font-size: 0.7vw;
+    height: 1vw;
+    width: 10vw;
+    font-size: 0.8vw;
 }
 #newsletterButton{
-    height: 31px;
-    width: 75px;
-    font-size: 0.7vw;
+    height: 1.2vw;
+    width: 4vw;
+    font-size: 0.8vw;
 }
 
 @media screen and (max-height: 450px) {
