@@ -42,20 +42,20 @@
 }
 #inputs{
     display: grid;
-    grid-template-columns: 300px 300px;
+    grid-template-columns: 35% 10% 25%;
     grid-template-rows: 110px 170px;
 }
 #name{
     grid-column-start: 1;
 }
 #contact{
-    grid-column-start: 2;
+    grid-column-start: 3;
 }
 #location{
     grid-column-start: 1;
 }
 #other{
-    grid-column-start: 2;
+    grid-column-start: 3;
 }
 #orderNumLoc input{
     width: 138px;
