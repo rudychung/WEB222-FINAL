@@ -189,6 +189,9 @@ footer form{
         min-height: 300px;
         justify-content: space-evenly; 
     }
+    .sidenav{
+        width:30%;
+    }
     .sidenav .filterType{
         font-size: 30px;
     }
