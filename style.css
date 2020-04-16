@@ -113,13 +113,11 @@
 }
 .sidenav .filterType{
     color: #D72323;
-    padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     font-size: 20px;
 }
 .sidenav a {
-    padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     font-size: 20px;
@@ -159,7 +157,13 @@ footer form{
         margin: 0;
     }
     .sidenav {
-        width: 200px;
+        width: 300px;  
+    }
+    .sidenav .filterType{
+        font-size: 30px;
+    }
+    .sidenav a {
+        font-size: 30px;
     }
     #main {
         margin-left: 205px;
