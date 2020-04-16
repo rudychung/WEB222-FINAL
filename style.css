@@ -9,12 +9,12 @@
     text-align: center;
 }
 #title {
-    display: inline-block;
+    display: inline-block;    
     margin-top: 1.5vw;
-    width: auto;
-    height: 2vw;
     border: 0.3vw solid #D72323;
     padding: 1vw;
+    width: auto;
+    height: 2vw;
     background: #FFFFFF;
     text-decoration: none;
 }
@@ -105,13 +105,17 @@
 }
 .details{
     display: grid;
-    grid-template-columns: 100px 125px 100px;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: auto;
+    justify-content: space-evenly;
 }
 .iCategory{
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     text-align: center;
     background-color: #303841;
     color: #EEEEEE;
+    grid-column-start: 1;
+    grid-row-start: 1;
 }
 .iPrice{
     padding: 2px 2px 2px 2px;
@@ -119,6 +123,8 @@
     font-weight: bold;
     text-align: right;
     border: 2px outset #52616B;
+    grid-column-start: 2;
+    grid-row-start: 1;
 }
 .iCredit{
     font-family: Verdana, Tahoma, sans-serif;
