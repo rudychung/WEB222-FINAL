@@ -4,7 +4,7 @@
     background: #EEEEEE;
     text-align: center;
     height: 150px;
-
+    width: 100%;
 }
 #title {
     display: inline-block;
@@ -53,6 +53,9 @@
     text-align: left;
     font-size: 200%;
     font-weight: bold;
+}
+#itemList{
+    padding-bottom: 65px;
 }
 .item{
     vertical-align: middle;
@@ -106,7 +109,7 @@
     height: 100%;
     width: 150px; 
     position: fixed; 
-    z-index: 1; 
+    z-index: 2; 
     top: 0; 
     left: 0;
     background-color: #303841; 
@@ -138,17 +141,24 @@
 }
 
 footer {
+    display: grid;
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
     font-family: raleway;
     font-size: 25px;
     background-color: #EEEEEE;
     color: #303841;
-    height: 8em;
+    width: 99%;
     align-content: center;
     justify-content: space-evenly;
+    grid-template-columns: 33% 33% 33%;
+    margin-left: 50px;
+    padding-bottom: 10px;
+    height:75px;
 }
 footer p {
     text-align: center;
-    align-content: center;
     padding-top: 0.6em;
     margin: auto;
 }
