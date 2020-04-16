@@ -130,7 +130,7 @@
     font-size: 20px;
     color: #EEEEEE;    
     line-height: 300%;
-    padding-left: 20px;
+    padding-left: 25px;
 }
 .filter{
     text-indent: 20px;
@@ -141,6 +141,8 @@
 }
 
 footer {
+    font-family: raleway;
+    font-size: 25px;
     background-color: #EEEEEE;
     color: #303841;
     height: 8em;
@@ -156,13 +158,21 @@ footer p {
 footer form{
     text-align: center;
 }
+#newsletter{
+    height: 25px;
+    width: 275px
+}
+#newsletterButton{
+    height: 30px;
+    width: 75px;
+}
 
 @media screen and (max-height: 450px) {
     #title h2{
         font-size: 20px;
     }
     #contactForm {
-        margin: 0;
+        margin-right: auto;
     }
     .sidenav {
         width: 300px;  
