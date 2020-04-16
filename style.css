@@ -4,16 +4,28 @@
     display: block;
     background: #EEEEEE;
     text-align: center;
+    height: 100px;
+    align-content: center;
+
 }
 #title {
+    display: block;
+    margin: auto;
     width: 30%;
+    height: 50px;
     border: 3px solid #D72323;
-    font-size: 150%;
-    font-family: Montserrat;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    padding: 20px;
     background: #FFFFFF;
+    text-decoration: none;
 }
+#title h2{
+    margin: 0;
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 50px;
+    text-decoration: none;
+}
+
 #contactHeader{
     text-align: center;
     font-size: 200%;
@@ -86,46 +98,11 @@
 }
 .iCredit{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: left;
-}
-
-/* Add a black background color to the top navigation */
-.topnav {
-    display: grid;
-    grid-template-columns: 200px 200px;
-}
-  /* Style the links inside the navigation bar */
-.topnav a {
-    background-color: #303841;
-    float: left;
-    color: #EEEEEE;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-
-}
-  /* Change the color of links on hover */
-.topnav a:hover {
-    background-color: #EEEEEE;
-    color: #303841;
-
-}
-  
-  /* Add a color to the active/current link */
-.topnav a.active {
-    background-color: #D72323;
-    color: #EEEEEE;
-
-}
-.topnav img{
-    height: 40px;
-    width: 40px;
 }
 
 .sidenav {
-    height: 100%; /* Full-height: remove this if you want "auto" height */
+    height: 100%;
     width: 150px; 
     position: fixed; 
     z-index: 1; 
@@ -158,14 +135,17 @@
 }
 
 footer {
-    margin-top: 235px;
     background-color: #EEEEEE;
     color: #303841;
     height: 10em;
+    align-content: center;
+    justify-content: space-evenly;
 }
 footer p {
     text-align: center;
+    align-content: center;
     padding-top: 0.6em;
+    margin: auto;
 }
 footer form{
     text-align: center;
