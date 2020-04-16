@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <meta charset="utf-8" />
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
   <title>WEB222 Store</title>
   <link rel="stylesheet" href="style.css">
   <script src="script.js">
@@ -27,12 +27,14 @@
 
 <body>
   <div id=main>
-    <div id="title">
-      <h1> Animal Picture Store! </h1>
-    </div>
-    <div class="topnav">
-      <a id="homeButton" class="active" href="./index.html"><img src='images/home.png'></a>
-      <a id="contactButton" href="./contact.html"><img src='images/comments.png'></a>
+    <div id=topBanner>
+      <div id="title">
+        <h1> Animal Picture Store! </h1>
+      </div>
+      <div class="topnav">
+        <a id="homeButton" class="active" href="./index.html"><img src='images/home.png'></a>
+        <a id="contactButton" href="./contact.html"><img src='images/comments.png'></a>
+      </div>
     </div>
     <p>We sell canvas prints of animal photos.</p>
   </div>
@@ -119,7 +121,6 @@
       on mobile.  You can use an online tool like https://squoosh.app/ to help you
       reduce images.  You will lose marks if your images aren't optimized for the web.
        
-
       10. Make sure you have no JavaScript or other errors in your Dev Tools Console.
       Run your site, and test all aspects of it with the Console open, and fix
       any issues you encounter.
@@ -132,6 +133,11 @@
 </body>
 
 <footer>
+  <form action="https://formspree.io/meqldzkp" method="POST">
+    <p>Sign up to our email newsletter!</p>
+    <input type="email" name="_replyto" placeholder="Enter your email here">
+    <input type="submit" value="Send">
+  </form>
   <p>Icons made by <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave
       Gandy</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
     <br>

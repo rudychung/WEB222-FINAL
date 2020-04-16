@@ -1,14 +1,19 @@
 /** Add any CSS you need to this file. */
+
+#topBanner{
+    display: block;
+    background: #EEEEEE;
+    text-align: center;
+}
 #title {
     width: 30%;
     border: 3px solid #D72323;
-    text-align: center;
     font-size: 150%;
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family: Montserrat;
     margin-top: 10px;
     margin-bottom: 10px;
+    background: #FFFFFF;
 }
-
 #contactHeader{
     text-align: center;
     font-size: 200%;
@@ -41,7 +46,7 @@
     display: inline-block;
     background-color: #EEEEEE;
     margin-bottom: 1%;
-    margin-right: 10px;
+    margin-right: 5%;
     padding: 2px 2px 2px 2px;
     width: 325px;
 }
@@ -152,6 +157,20 @@
     margin-left: 155px;
 }
 
+footer {
+    margin-top: 235px;
+    background-color: #EEEEEE;
+    color: #303841;
+    height: 10em;
+}
+footer p {
+    text-align: center;
+    padding-top: 0.6em;
+}
+footer form{
+    text-align: center;
+}
+
 @media screen and (max-height: 450px) {
     #contactForm {
         margin: 0;
@@ -164,13 +183,7 @@
     }
 }
 
-footer {
-    margin-top: 235px;
-    background-color: #303841;
-    color: #EEEEEE;
-    height: 3.5em;
-}
-footer p {
-    text-align: center;
-    padding-top: 0.6em;
+@font-face{
+    font-family: Montserrat;
+    src: 'fonts/montserrat/Montserrat-Black.ttf'
 }
