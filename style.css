@@ -54,10 +54,6 @@
     font-size: 200%;
     font-weight: bold;
 }
-#itemList{
-    min-height: 480px;
-    justify-content: space-evenly; 
-}
 .item{
     vertical-align: middle;
     display: inline-block;
@@ -191,11 +187,6 @@ footer form{
     #main {
         margin-left: 205px;
     }
-}
-
-body{
-    height: 100%;
-    width: 95%
 }
 
 @font-face{
