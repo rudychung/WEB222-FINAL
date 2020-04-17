@@ -48,13 +48,15 @@
     text-decoration: none;
     font-size: 25px;
     padding-left: 10px;
+    line-height: 0;
 }
 .sidenav a {
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     font-size: 30px;
     color: #EEEEEE;    
-    line-height: 70px;
+    line-height: 90px;
+
 }
 .filter{
     padding-left: 10px;
@@ -243,7 +245,6 @@ body{
     }
     .sidenav a {
         font-size: 30px; 
-        line-height: 75px;
     }
     .filter{
         font-size: 30x;   
@@ -334,11 +335,12 @@ body{
         line-height: 35px;
     }
     .sidenav .filterType{
+        line-height: 20px;
         font-size: 25px;
     }
     .sidenav a {
         font-size: 25px;
-        line-height: 35px;
+        line-height: 40px;
     }
     .filter{
         padding-left: 10px;
