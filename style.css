@@ -254,6 +254,9 @@ body{
         font-size: 200%;
         font-weight: bold;
     }
+    #itemList{
+        padding-bottom: 5px;
+    }
     .item{
         width: 700px;
         height: 450px;
