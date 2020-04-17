@@ -239,8 +239,25 @@ ul{
     .filter{
         font-size: 30x;   
     }
+    #storeDesc{
+        font-family: raleway;
+        font-size: 25px;
+        text-align: center;
+    }
+    #filterText{
+        font-size: 200%;
+        font-weight: bold;
+    }
     #itemList{
-        margin-bottom: 150px;
+        margin-bottom: 100px;
+    }
+    .item{
+        width: 700px;
+        height: 450px;
+    }
+    .img{
+        max-width: 695px;
+        max-height: 350px;
     }
     #contactForm {
         font-size: 20px;
@@ -249,18 +266,6 @@ ul{
     }
     #inputs{
         grid-template-rows: auto 200px;
-    }
-    #name{
-
-    }
-    #contactInfo{
-
-    }
-    #location{
-
-    }
-    #other{
-
     }
     #orderNumLoc input{
         height: 20px;
