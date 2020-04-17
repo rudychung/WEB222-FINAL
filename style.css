@@ -220,7 +220,6 @@ body{
     margin:0;
 }
 
-/* Styles for portrait view */
 @media screen and (max-width: 1000px){
     #topBanner{
         margin-left: 200px;
@@ -245,6 +244,15 @@ body{
     }
     .filter{
         font-size: 30x;   
+    }
+    #storeDesc{
+        font-family: raleway;
+        font-size: 25px;
+        text-align: center;
+    }
+    #filterText{
+        font-size: 200%;
+        font-weight: bold;
     }
     #itemList{
         padding-bottom: 5px;
@@ -325,8 +333,6 @@ body{
         padding-left: 10px;
     }
 }
-
-/* Styles for landscape view */
 @media screen and (max-height: 410px){
     .sidenav {
         font-size: 30px;
@@ -354,7 +360,6 @@ body{
         margin:0;
     }
 }
-
 @font-face{
     font-family: montserrat;
     src: url('fonts/montserrat/Montserrat-Black.ttf')
