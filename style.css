@@ -189,6 +189,8 @@
     font-family: raleway;
     text-align: center;
     color: #303841;
+    font-size: 25px;
+    padding-bottom: 10px;
 }
 #fContent{
     display: grid;
