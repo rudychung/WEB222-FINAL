@@ -218,6 +218,7 @@ ul{
 @media screen and (max-width: 1000px){
     #topBanner{
         margin-left: 200px;
+        width: auto;
     }
     #title{
         height: 60px;
@@ -248,16 +249,25 @@ ul{
         font-size: 200%;
         font-weight: bold;
     }
-    #itemList{
-        margin-bottom: 100px;
-    }
     .item{
         width: 700px;
         height: 450px;
     }
+    .iTitle{
+      font-size: 30px;  
+    }
     .img{
         max-width: 695px;
         max-height: 350px;
+    }
+    .iCategory{
+        font-size: 20px;
+    }
+    .iPrice{
+        font-size: 20px;
+    }
+    .iCredit{
+        font-size: 20px;
     }
     #contactForm {
         font-size: 20px;
@@ -280,6 +290,9 @@ ul{
         height: 100px;
     }
     #foot{
+        overflow-x: hidden;
+        width: auto;
+        position: relative;
         margin-left: 200px;
     }
     #fContent{
