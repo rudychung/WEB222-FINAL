@@ -330,7 +330,7 @@ body{
 @media screen and (max-height: 450px){
     .sidenav {
         font-size: 30px;
-        line-height: 40px;
+        line-height: 30px;
     }
     .sidenav .filterType{
         font-size: 25px;
