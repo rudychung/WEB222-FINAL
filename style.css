@@ -245,15 +245,6 @@ body{
     .filter{
         font-size: 30x;   
     }
-    #storeDesc{
-        font-family: raleway;
-        font-size: 25px;
-        text-align: center;
-    }
-    #filterText{
-        font-size: 200%;
-        font-weight: bold;
-    }
     #itemList{
         padding-bottom: 5px;
     }
