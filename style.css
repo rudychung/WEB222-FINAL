@@ -54,7 +54,7 @@
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     font-size: 30px;
     color: #EEEEEE;    
-    line-height: 75px;
+    line-height: 70px;
 }
 .filter{
     padding-left: 10px;
@@ -76,7 +76,7 @@
     font-weight: bold;
 }
 #itemList{
-    padding-bottom: 50px;
+    padding-bottom: 75px;
 }
 .item{
     vertical-align: middle;
@@ -199,6 +199,7 @@
 }
 #subscribe{
     grid-column-start: 1;
+
 }
 #newsletter{
     width: 150px;
@@ -206,7 +207,7 @@
 }
 #newsletterButton{
     width: 75px;
-    height: 20px;
+    height: 26px;
 }
 #cright{
     grid-column-start: 2;
