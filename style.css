@@ -242,6 +242,38 @@ ul{
     #itemList{
         margin-bottom: 150px;
     }
+    #contactForm {
+        font-size: 20px;
+        height: 500px;
+        width: 700px
+    }
+    #inputs{
+        grid-template-rows: auto 200px;
+    }
+    #name{
+
+    }
+    #contactInfo{
+
+    }
+    #location{
+
+    }
+    #other{
+
+    }
+    #orderNumLoc input{
+        height: 20px;
+        width: 140px;
+    }
+    .tInput{
+        height: 30px;
+        width: 275px;
+    }
+    #msg {
+        width: 700px;
+        height: 100px;
+    }
     #foot{
         margin-left: 200px;
     }
@@ -249,7 +281,7 @@ ul{
         display: inline-block;
     }
     #subscribe label{
-        font-size: 25px;
+        font-size: 30px;
     }
     #newsletter{
         height: 22px;
@@ -263,9 +295,11 @@ ul{
     }
     #cright{
         font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
     #contact{
-        font-size: 25px;
+        font-size: 30px;
     }
     ul{
         padding-left: 10px;
