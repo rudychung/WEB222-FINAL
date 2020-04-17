@@ -41,6 +41,7 @@
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif; 
     font-size: 30px;
     border-right: 2px solid #D72323;
+    line-height: 65px;
 }
 .sidenav .filterType{
     color: #D72323;
