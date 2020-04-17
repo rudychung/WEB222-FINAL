@@ -219,6 +219,9 @@ ul{
     #topBanner{
         margin-left: 200px;
     }
+    #title{
+        height: 60px;
+    }
     #title h2{
         font-size: 45px;
     }
@@ -237,7 +240,7 @@ ul{
         font-size: 30x;   
     }
     #itemList{
-        margin-bottom: 200px;
+        margin-bottom: 150px;
     }
     #foot{
         margin-left: 200px;
