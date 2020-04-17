@@ -220,6 +220,7 @@ body{
     margin:0;
 }
 
+/* Styles for portrait view */
 @media screen and (max-width: 1000px){
     #topBanner{
         margin-left: 200px;
@@ -324,6 +325,8 @@ body{
         padding-left: 10px;
     }
 }
+
+/* Styles for landscape view */
 @media screen and (max-height: 410px){
     .sidenav {
         font-size: 30px;
@@ -351,6 +354,7 @@ body{
         margin:0;
     }
 }
+
 @font-face{
     font-family: montserrat;
     src: url('fonts/montserrat/Montserrat-Black.ttf')
