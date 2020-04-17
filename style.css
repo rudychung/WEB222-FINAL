@@ -326,13 +326,13 @@ body{
 }
 @media screen and (max-height: 410px){
     .sidenav {
-
+        font-size: 30px;
     }
     .sidenav .filterType{
-        font-size: 20px;
+        font-size: 25px;
     }
     .sidenav a {
-        font-size: 20px;
+        font-size: 25px;
         line-height: 35px;
     }
     .filter{
