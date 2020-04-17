@@ -245,15 +245,6 @@ body{
     .filter{
         font-size: 30x;   
     }
-    #storeDesc{
-        font-family: raleway;
-        font-size: 25px;
-        text-align: center;
-    }
-    #filterText{
-        font-size: 200%;
-        font-weight: bold;
-    }
     #itemList{
         padding-bottom: 5px;
     }
@@ -334,6 +325,19 @@ body{
     }
 }
 @media screen and (max-height: 410px){
+    .sidenav {
+
+    }
+    .sidenav .filterType{
+        font-size: 20px;
+    }
+    .sidenav a {
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .filter{
+        padding-left: 10px;
+    }
     #contactForm{
         font-size: 20px;
     }
@@ -342,6 +346,9 @@ body{
     }
     #msg{
         height: 100px;
+    }
+    ul{
+        margin:0;
     }
 }
 @font-face{
