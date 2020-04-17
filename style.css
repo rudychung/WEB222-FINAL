@@ -327,10 +327,10 @@ body{
     }
 }
 /* Styles for landscape view */
-@media screen and (max-height: 450px){
+@media screen and (max-height: 420px){
     .sidenav {
         font-size: 30px;
-        line-height: 30px;
+        line-height: 35px;
     }
     .sidenav .filterType{
         font-size: 25px;
