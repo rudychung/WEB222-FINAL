@@ -326,7 +326,7 @@ body{
     }
 }
 /* Styles for landscape view */
-/*@media screen and (max-height: 410px){
+@media screen and (max-height: 410px){
     .sidenav {
         font-size: 30px;
     }
@@ -352,7 +352,7 @@ body{
     ul{
         margin:0;
     }
-}*/
+}
 @font-face{
     font-family: montserrat;
     src: url('fonts/montserrat/Montserrat-Black.ttf')
